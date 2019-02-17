@@ -11,6 +11,7 @@ body {
 	font-size:16px;
 	font-family: Helvetica, Arial, sans-serif;
 	position:relative;
+	height:80vh;
 }
 a {
 	color:#fff;
@@ -19,17 +20,16 @@ a {
 .container {
 	max-width:360px; 
 	width:100%; 
-	margin:20px auto;
+	margin:20px auto 0;
 	padding: 0 10px;
 	box-sizing: border-box;
-	position:absolute;
-	bottom: 0;
+}
+.header {
+	margin: 15vh auto;
+	text-align: center;
 }
 .logo {
 	width:180px;
-	margin:20 auto;
-	display:block;
-
 }
 .btn {
 	list-style-type:none;
@@ -78,7 +78,6 @@ a {
 	text-align:center;
 	font-size:.7em;
 	color:#ddd;
-	margin-top:10px;
 }
 .credit a {
 	color:#ccc;
@@ -113,7 +112,9 @@ a {
 
 </head>
 <body>
-	<img src="logo.jpg" alt="logo" class="logo">
+	<header class="header">
+		<img src="logo.jpg" alt="logo" class="logo">
+	</header>
 <div class="container">
 	<ul>
 		<li class="btn btn-wa">
